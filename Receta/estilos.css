@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(237, 230, 219);
+}
+span {
+    font-weight: bold;
+}
+h1 {
+    text-decoration: underline;
+}
+#ingredientes {
+    width: 180px;
+    background-color: #7a3e1c29;
+    font-size: 18px;
+}
+img{
+    width: 560px;
+}
+.pasos {
+    color: #7a3f1c;
+    
+}
