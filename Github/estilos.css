@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.enlaces {
+    margin-top: 5%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.boton:link {
+    color: #F8EFBA;
+    text-decoration: none;
+}
+
+.boton {
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 3%;
+    background-color: #2C3A47;
+    border-radius: 10px;
+    
+}
+

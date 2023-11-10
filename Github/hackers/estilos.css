@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 70px;
+    background-color: rgb(33, 43, 63);
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+
+.izq {
+    float: left;
+}
+
+.ctr {
+    text-align: center;
+    padding-left: 420px;
+    font-size: 27px;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.drc {
+    float: right;
+}
+
+.cabeza {
+    width: 1440px;
+}
+
+
+h1 {
+    padding-top: 30px;
+    font-family: Times, serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+.sub {
+    padding-top: 30px;
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* no funciona*/
+p:first-child::first-letter {
+    font-size: 60px;
+}
+
+.capital {
+    font-size: 64px;
+}
+
+.deco {
+    padding-top: 20px;
+    padding-left: 260px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-family: Tahoma, sans-serif;
+    font-size: 26px;
+    line-height: 30px;
+    padding-left: 400px;
+    padding-right: 420px;
+    padding-bottom: 20px;
+}
+
+.lista {
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 340px;
+    padding-right: 420px;
+}
+
+.parrafo {
+    padding-top: 20px;
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 340px;
+    padding-right: 420px;
+}
+
+footer img {
+    padding-left: 405px;
+    width: 1050px;
+}

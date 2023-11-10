@@ -1,0 +1,57 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+@font-face {
+    font-family: 'BN Cringe Serif';
+    src: local('BN Cringe Serif Black'), local('BN-Cringe-Serif-Black'),
+        url('BNCringeSerifBlack.woff2') format('woff2'),
+        url('BNCringeSerifBlack.woff') format('woff'),
+        url('BNCringeSerifBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    position: absolute;
+}
+
+header {
+    font-family: 'BN Cringe Serif';
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+body {
+    background-color: #CAD3C8;
+}
+
+section {
+    text-align: center;
+    margin: 10%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    margin-top: 2%;
+    width: 30%;
+    height: auto;
+    filter: saturate(0);
+    border-radius: 1%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+a:hover img {
+    filter: saturate(1);
+    position: relative;
+    width: 35%;
+    border-width: 5px;
+    transition: 1s;
+    transition-delay: 0.2s;
+    
+}
+
+h2 {
+    margin-top: 5%;
+}

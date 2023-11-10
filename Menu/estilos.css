@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 1200px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding-top: 65px;
+}
+
+.h {
+    background-color: orange;
+}
+
+.w {
+    background-color: yellow;
+}
+
+.o {
+    background-color: aqua;
+}
+
+.e {
+    background-color: blue;
+}
+
+.u {
+    background-color: darkblue;
+}
+
+.a {
+    background-color: rgb(36, 30, 69);
+}
+
+.contenedor2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bajo {
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.bajo2 {
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.bajo3 {
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.bajo:link {
+    color: rgb(255, 136, 156);
+}
+
+.bajo:visited {
+    color: purple;
+}
+
+.bajo:hover {
+    color: orange;
+}
+
+.bajo:active {
+    color: yellow   ;
+}
+
+.bajo2:link {
+    color: rgb(255, 136, 156);
+}
+
+.bajo2:visited {
+    color: purple;
+}
+
+.bajo2:hover {
+    color: orange;
+}
+
+.bajo2:active {
+    color: yellow   ;
+}
+
+.bajo3:link {
+    color: rgb(255, 136, 156);
+}
+
+.bajo3:visited {
+    color: purple;
+}
+
+.bajo3:hover {
+    color: orange;
+}
+
+.bajo3:active {
+    color: yellow   ;
+}
+
+
