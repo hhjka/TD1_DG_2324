@@ -48,8 +48,7 @@ a:hover img {
     width: 35%;
     border-width: 5px;
     transition: 1s;
-    transition-delay: 0.2s;
-    
+    transition-delay: 0.2s;  
 }
 
 h2 {

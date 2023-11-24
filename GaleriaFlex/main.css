@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'BN Cringe Serif';
+    src: local('BN Cringe Serif Black'), local('BN-Cringe-Serif-Black'),
+        url('BNCringeSerifBlack.woff2') format('woff2'),
+        url('BNCringeSerifBlack.woff') format('woff'),
+        url('BNCringeSerifBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    position: absolute;
+}
+
+header {
+    margin-top: 5%;
+    font-family: 'BN Cringe Serif';
+    font-size: 1.5em;
+}
+
+body {
+    background-color: #CAD3C8;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+h2 {
+    font-family: monospace;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+
+p {
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+.linea {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.formato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.svg {
+    width: 320px;
+    border-style: none;
+    border-width: none;
+}
+
+img {
+    margin-top: 2%;
+    max-width: 350px;
+    height: auto;
+    filter: saturate(0);
+    border-radius: 1%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+a:hover img {
+    filter: saturate(1);
+    position: relative;
+    transition: 1s;
+    transition-delay: 0.1s;
+}
