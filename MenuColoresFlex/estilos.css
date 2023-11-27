@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f2f6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    color: aliceblue;
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+
+}
+
+.caja {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 3px;
+}
+
+.grow1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 3px;
+    flex-grow: 2;
+    background-color: #f7d794;
+}
+
+.grow2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 3px;
+    flex-shrink: 15;
+    background-color: #778beb;
+
+}
+
+.grow3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 3px;
+    flex-grow: 1;
+    background-color: #546de5;
+}
+
+.h {
+    background-color: #f3a683;
+}
+
+
+.u {
+    background-color: #303952;
+}
+
+.a {
+    background-color: rgb(19, 15, 43)
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 50px;
+}
+
+.bajo:link {
+    color: rgb(255, 136, 156);
+}
+
+.bajo:visited {
+    color: purple;
+}
+
+.bajo:hover {
+    color: orange;
+}
+
+.bajo:active {
+    color: yellow;
+}
+
+.bajo2:link {
+    color: rgb(255, 136, 156);
+}
+
+.bajo2:visited {
+    color: purple;
+}
+
+.bajo2:hover {
+    color: orange;
+}
+
+.bajo2:active {
+    color: yellow;
+}
+
+.bajo3:link {
+    color: rgb(255, 136, 156);
+}
+
+.bajo3:visited {
+    color: purple;
+}
+
+.bajo3:hover {
+    color: orange;
+}
+
+.bajo3:active {
+    color: yellow;
+}
