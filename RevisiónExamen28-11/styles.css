@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+
+header {
+    color: crimson;
+    font-size: 5em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 2%;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+li {
+    margin-right: 4%;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.imagen {
+    width: 80%;
+    background-image: url(imagenes/DSC02945-1229x1536.jpg);
+    margin: auto;
+    background-size: cover;
+    padding-left: 5%;
+    padding-bottom: 0.4%;
+}
+
+.nombre {
+    font-weight: bold;
+    color: white;
+    font-size: 7em;
+    text-align: center;
+    padding: 10%;
+}
+
+.texto {
+    background-color: white;
+    width: 20%;
+    position: relative;
+    margin-bottom: 5%;
+    padding: 1%;
+}
+
+.galeria {
+    margin-top: 5%;
+}
+
+.linea {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.formato {
+display: flex;
+flex-direction: column;
+max-width: 30%;
+}
+
+.formato p {
+    width: 80%;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    display: flex;
+    left: 10%;
+    bottom: 10%;
+}

@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5%;
+    background-image: url(imagenes/DSC02945-1229x1536.jpg);
+    background-repeat: no-repeat;
+    background-size: 70% 30%;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 5em;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+ul {
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    margin-left: 5px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+h1 {
+    display: flex;
+    position: absolute;
+    right: 42%;
+    top: 45%;
+    color: white;
+}
+
+.texto {
+    display: flex;
+    position: absolute;
+    right: 65%;
+    top: 65%;
+    padding: 1%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.galeria {
+    margin-top: 90%;
+    display: flex;
+}
+
+.linea {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.formato {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+img {
+    margin-top: 10%;
+    max-width: 350px;
+    height: auto;
+    border-width: 3px;
+}
+
+.formato p {
+    background-color: white;
+    display: flex;
+    position: relative;
+    max-width: 250px;
+    bottom: 10%;
+    left: 10%;
+}
