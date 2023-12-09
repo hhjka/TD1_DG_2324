@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+header {
+    background-color: rgb(33, 43, 63);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+
+header img {
+    max-height: 25px;
+
+}
+
+.last {
+    max-height: 35px;
+    position: relative;
+    bottom: 10%;
+}
+
+
+nav {
+    padding-top: 1.5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a :hover {
+    margin-left: 10px;
+}
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1 {
+    padding-top: 30px;
+    font-family: Times, serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+.sub {
+    padding-top: 30px;
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.capital {
+    font-size: 64px;
+}
+
+.deco {
+    width: 60%;
+    display: flex;
+    margin: auto;
+}
+
+h2 {
+    font-family: Tahoma, sans-serif;
+    font-size: 26px;
+    line-height: 30px;
+    padding-left: 400px;
+    padding-right: 420px;
+    padding-bottom: 20px;
+}
+
+.lista {
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 340px;
+    padding-right: 420px;
+}
+
+.parrafo {
+    padding-top: 20px;
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 340px;
+    padding-right: 420px;
+}
+
+footer img {
+    padding-left: 405px;
+    width: 1050px;
+}
