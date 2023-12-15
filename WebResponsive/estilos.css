@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #303952;
+    height: 70px;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.perfil {
+    margin-left: 2.5%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    color: #f1f2f6;
+    margin-right: 2.5%;
+    width: 100%;
+}
+
+nav a {
+    margin-left: 3%;
+}
+
+a {
+    color: #f1f2f6;
+    text-decoration: none;
+}
+
+.cabeza {
+    height: 600px;
+    background-color: #e77f67;
+    width: 100%;
+}
+
+
+article {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    background-color: #eccc68;
+}
+
+.izq {
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+    margin-left: 17%;
+}
+
+.drch {
+    display: flex;
+    flex-direction: column;
+    margin-top: 117px;
+    width: 35%;
+    margin-right: 17%;
+}
+
+@media screen and (max-width: 431px) {
+
+    .cabeza {
+        height: 300px;
+    }
+
+
+    article {
+        flex-direction: column;
+        height: 480px;
+        justify-content: center;
+    }
+
+    .izq {
+        text-align: center;
+        margin: auto;
+        margin-top: 10%;
+        position: relative;
+        top: 12%;
+    }
+
+    .drch {
+        flex-direction: row;
+        justify-content: center;
+        width: 50%;
+        margin: auto;
+        margin-left: 28%;
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    
+}
+
+.filo {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.filo h2 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.abc {
+    display: flex;
+    margin-bottom: 1.5%;
+}
+
+.abc p {
+    margin-left: 2%;
+}
+
+@media screen and (max-width: 431px) {
+
+    .filo {
+        display: flex;
+        padding-top: 10%;
+        padding-bottom: 20%;
+    }
+
+    .abc {
+        margin-bottom: 8%;
+    }
+
+    .abc p {
+        margin-left: 5%;
+    }
+}
