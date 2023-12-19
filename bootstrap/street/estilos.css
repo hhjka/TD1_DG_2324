@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-size: 3em;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.border {
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.border p {
+    text-align: left;
+}
+
+.col-lg-4 {
+    padding-top: 12%;
+}
+
+@media screen and (max-width:768px) {
+    .mobile {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .col-lg-4{
+        padding-top: 0%;
+    }
+}
+
+
+
