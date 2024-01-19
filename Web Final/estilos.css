@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    padding-top: 1.5%;
+    height: 80px;
+    background-color: aqua;
+}
+
+.imagen {
+    background-image: url(DSC02945-1229x1536.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+    height: 600px;
+    background-color: brown;
+}
+
+.top {
+    display: flex;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: right;
+}
+
+.top2 {
+    padding-top: 2%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 2%;
+}
+
+.about {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: aqua;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+.topfoto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulos {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+
+
+hr {
+    size: 5px;
+    margin-bottom: 3%;
+}
+
+.contacto {
+    margin-bottom: 2%;
+}
+
+.datos {
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.redes {
+    display: flex;
+    font-size: 1.5em;
+    justify-content: flex-end;
+    margin-right: 2%;
+}
+
+i {
+    margin-left: 4%;
+}

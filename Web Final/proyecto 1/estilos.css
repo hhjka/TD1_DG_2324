@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    padding-top: 1.5%;
+    height: 80px;
+    background-color: aqua;
+}
+
+.imagen {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.galeria {
+    margin-top: 5%;
+}
+
+.linea {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.formato {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+.formato p {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.558);
+    position: relative;
+    text-align: center;
+    display: flex;
+    left: 10%;
+    bottom: 10%;
+}
+
+.about {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: aqua;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+.topfoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 9%;
+}
+
+.contacto {
+    margin-bottom: 2%;
+}
+
+.datos {
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.redes {
+    display: flex;
+    font-size: 1.5em;
+    justify-content: flex-end;
+    margin-right: 2%;
+}
+
+i {
+    margin-left: 4%;
+}
